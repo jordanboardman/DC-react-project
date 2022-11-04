@@ -37,4 +37,5 @@ const BuyMeCoffee = () => {
 
 export default BuyMeCoffee;
 
+// Script Widget Tag from my profile on the website.
 // <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="jordanboardman" data-description="Support me on Buy me a coffee!" data-message="Made with love by Jordan Boardman. Thanks for using Spirit Guide for all of your mixing needs! I hope you found it as useful as I have. Feel free to buy me a coffee (or better yet, an Old-Fashioned). Cheers!" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

@@ -10,23 +10,16 @@ const Header = () => {
       </li>
       <li>
         {" "}
-        <Link to="/count_class">Count Class</Link>{" "}
+        <Link to="/favorites">Favorites</Link>{" "}
       </li>
       <li>
         {" "}
-        <Link to="/count_hooks">Count Hooks</Link>{" "}
+        <Link to="/about">About this Cool App</Link>{" "}
       </li>
+
       <li>
         {" "}
-        <Link to="/view_count_class">View Count Class</Link>{" "}
-      </li>
-      <li>
-        {" "}
-        <Link to="/view_count_hooks">View Count Hooks</Link>{" "}
-      </li>
-      <li>
-        {" "}
-        <Link to="/contacts">Contacts</Link>{" "}
+        <Link to="/jordan">Jordan's Favorites</Link>{" "}
       </li>
     </ul>
   );
