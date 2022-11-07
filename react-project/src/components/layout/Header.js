@@ -1,27 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 
 const Header = () => {
   return (
-    <ul>
-      <li>
-        {" "}
-        <Link to="/">Home</Link>{" "}
-      </li>
-      <li>
-        {" "}
-        <Link to="/favorites">Favorites</Link>{" "}
-      </li>
-      <li>
-        {" "}
-        <Link to="/about">About this Cool App</Link>{" "}
-      </li>
+    <AppBar
+      position="static"
+      sx={{
+        backgroundColor: "#CC8E69",
+        display: "flex",
+      }}
+    >
+      <Toolbar
+        sx={{
+          display: "flex",
+          justifyContent: "space-evenly",
+        }}
+      >
+        <Typography sx={{ fontWeight: "bolder" }}>
+          <Link to="/">Home</Link>
+        </Typography>
 
-      <li>
-        {" "}
-        <Link to="/jordan">Jordan's Favorites</Link>{" "}
-      </li>
-    </ul>
+        <Typography sx={{ fontWeight: "bolder" }}>
+          <Link to="/favorites">Favorites</Link>
+        </Typography>
+
+        <Typography sx={{ fontWeight: "bolder" }}>
+          <Link to="/about">About this Cool App</Link>
+        </Typography>
+
+        <Typography sx={{ fontWeight: "bolder" }}>
+          <Link to="/jordan">Jordan's Favorites</Link>
+        </Typography>
+      </Toolbar>
+    </AppBar>
   );
 };
 

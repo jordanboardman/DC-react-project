@@ -4,11 +4,9 @@ import "./index.css";
 // import { createStore } from "redux";
 // import { Provider } from "react-redux";
 import App from "./App";
-// import CountClass from "./components/CountClass"; //HERE JUST FOR REDUX HELP
-// import CountHooks from "./components/CountHooks"; //HERE JUST FOR REDUX HELP
-// import ViewCountClass from "./components/ViewCountClass"; //HERE JUST FOR REDUX HELP
-// import ViewCountHooks from "./components/ViewCountHooks"; //HERE JUST FOR REDUX HELP
-// import Contacts from "./components/Contacts"; //HERE JUST FOR REDUX HELP
+import About from "./pages/About";
+import AddFavorites from "./pages/AddFavorites";
+import JordansFavorites from "./pages/JordansFavorites";
 // import { reducer } from "./reducers/reducer";
 import Header from "./components/layout/Header";
 import BaseLayout from "./components/layout/BaseLayout";
@@ -23,12 +21,9 @@ ReactDOM.render(
       <BaseLayout>
         <Routes>
           <Route path="/" element={<App />} />
-          {/* USE THESE ROUTES FOR YOUR OWN */}
-          {/* <Route path="/count_class" element={<CountClass />} />
-            <Route path="/count_hooks" element={<CountHooks />} />
-            <Route path="/view_count_class" element={<ViewCountClass />} />
-            <Route path="/view_count_hooks" element={<ViewCountHooks />} />
-            <Route path="/contacts" element={<Contacts />} /> */}
+          <Route path="/favorites" element={<AddFavorites />} />
+          <Route path="/jordan" element={<JordansFavorites />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BaseLayout>
     </Router>
