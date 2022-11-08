@@ -1,5 +1,7 @@
 // App.js v1
 import React from "react";
+import Home from "./pages/Home";
+import { useState, useEffect } from "react";
 // import CocktialList from "./components/CocktailList";
 // import SearchForm from "./components/SearchForm";
 
@@ -7,7 +9,9 @@ const url = "www.thecocktaildb.com/api/json/v1/1/search.php?s=a";
 
 const App = () => {
   return (
-    <h3>still not working</h3>
+    <div>
+      <Home />
+    </div>
     // <div>
     //   <div>
     //     <SearchForm />
