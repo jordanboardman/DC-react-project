@@ -1,6 +1,6 @@
 import React from "react";
-import { AppBar, Box, Typography, Toolbar } from "@mui/material";
-import { Container } from "@mui/material";
+import { AppBar, Typography, Toolbar } from "@mui/material";
+// import { Container } from "@mui/material";
 
 const Footer = () => {
   return (
@@ -20,13 +20,16 @@ const Footer = () => {
           justifyContent: "space-evenly",
         }}
       >
-        <Typography sx={{ fontWeight: "bolder" }}>Yo</Typography>
+        <Typography sx={{ fontWeight: "bolder" }}>
+          Made with love by Jordan Boardman using React.js, Context API, and The
+          CocktailDB API.
+        </Typography>
+
+        {/* <Typography sx={{ fontWeight: "bolder" }}>Yo</Typography>
 
         <Typography sx={{ fontWeight: "bolder" }}>Yo</Typography>
 
-        <Typography sx={{ fontWeight: "bolder" }}>Yo</Typography>
-
-        <Typography sx={{ fontWeight: "bolder" }}>Yo</Typography>
+        <Typography sx={{ fontWeight: "bolder" }}>Yo</Typography> */}
       </Toolbar>
     </AppBar>
     // <Box

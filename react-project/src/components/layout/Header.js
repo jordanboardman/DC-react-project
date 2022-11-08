@@ -18,7 +18,7 @@ const Header = () => {
         }}
       >
         <Typography sx={{ fontWeight: "bolder" }}>
-          <Link to="/">Home</Link>
+          <Link to="/">Spirit Guide</Link>
         </Typography>
 
         <Typography sx={{ fontWeight: "bolder" }}>
